@@ -1,0 +1,20 @@
+{
+    "name": "letswetalk/cimpress-php-test",
+    "type": "library",
+    "description": "TLDExtract, library for extracting parts of domain, e.q. domain parser",
+    "version": "1.2.0",
+    "keywords": [
+        "TLDExtract",
+        "domain parser"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "knplabs/github-api": "^2.3",
+        "php-http/guzzle6-adapter": "^1.1",
+        "twig/twig": "^1.0||^2.0"
+    },
+    "autoload": {
+        "classmap": ["Controller", "Helper"]
+    }
+
+}
